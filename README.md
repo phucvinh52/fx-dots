@@ -13,4 +13,7 @@ curl -L https://raw.githubusercontent.com/phucvinh52/fx-dots/master/gnome-shell-
 
 fork workspace from project follow `https://gitlab.com/null-git/simple-workspaces-bar`
 
-gnome-shell-extensions
+font
+~/.local/share/icons/
+~/.local/share/fonts/
+~/.local/share/themes/
