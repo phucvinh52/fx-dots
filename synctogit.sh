@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir -p .local/share/gnome-shell/extensions
-rsync -arvz --progress --delete ~/.local/share/gnome-shell/extensions/workspaces-bar@fthx .local/share/gnome-shell/extensions
+rsync -arvz --progress --delete ~/.local/share/gnome-shell/extensions/workspaces-bar@fxfx .local/share/gnome-shell/extensions
 
 
 rsync -arvz --progress --delete ~/.local/share/fonts .local/share/ 

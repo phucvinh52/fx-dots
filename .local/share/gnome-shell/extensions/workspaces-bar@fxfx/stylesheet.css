@@ -1,0 +1,33 @@
+/* non-framed version */
+
+.desktop-label-nonempty-active {
+  /*margin-left: 0px;*/
+  font-size: 0.9em;
+  margin-right: 1px;
+  background-color: rgba(54, 154, 154, 0.7);
+  border-radius: 2px;
+}
+
+.desktop-label-nonempty-inactive {
+  /*margin-left: 0px;*/
+  font-size: 0.9em;
+  margin-right: 1px;
+  background-color: rgba(96, 96, 96, 0.7);
+  border-radius: 2px;
+}
+
+.desktop-label-empty-active {
+  /*margin-left: 0px;*/
+  font-size: 0.9em;
+  margin-right: 1px;
+  background-color: rgba(154, 154, 154, 0.7);
+  border-radius: 2px;
+}
+
+.desktop-label-empty-inactive {
+  /*margin-left: 0px;*/
+  font-size: 0.9em;
+  margin-right: 1px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 2px;
+}

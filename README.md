@@ -10,3 +10,5 @@ fxDot for Gnome
 ```bash
 curl -L https://raw.githubusercontent.com/phucvinh52/fx-dots/master/gnome-shell-theme/install.py | python3 -
 ```
+
+fork workspace from project follow `https://gitlab.com/null-git/simple-workspaces-bar`
