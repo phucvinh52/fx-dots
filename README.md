@@ -1,6 +1,7 @@
 # fx-dots
 
 fxsurface
+should install version kernel `6.9.9` 6.10 have bug boot
 `sudo apt install linux-image-surface linux-headers-surface libwacom-surface iptsd`
 
 fxDot for Gnome
