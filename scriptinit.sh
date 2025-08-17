@@ -3,8 +3,9 @@ VERSION_NODE="v22.18.0"
 wget https://nodejs.org/dist/${VERSION_NODE}/node-${VERSION_NODE}-linux-x64.tar.xz
 tar -xvf node-${VERSION_NODE}-linux-x64.tar.xz 
 sudo rm -rf ~/node
-mv node-${VERSION_NODE}-linux-x64 ~/node/
-rm -rf node-${VERSION_NODE}-linux-x64.tar.xz
+sudo rm -rf /usr/local/node
+sudo mv node-${VERSION_NODE}-linux-x64 /usr/local/node
+sudo rm -rf node-${VERSION_NODE}-linux-x64.tar.xz
 curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
 chmod u+x nvim-linux-x86_64.appimage
 ./nvim-linux-x86_64.appimage --appimage-extract
